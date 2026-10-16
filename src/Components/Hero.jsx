@@ -244,7 +244,22 @@ const Hero = () => {
       {/* Cream feature box */}
       <div
         ref={boxRef}
-        className="cream-box relative mr-auto h-[46vh] min-h-[280px] w-[88%] overflow-hidden rounded-r-[5rem] bg-cream sm:h-[45vh] sm:w-3/4 sm:rounded-r-[12rem] lg:h-[42vh] lg:w-[90vw]"
+        className="
+            cream-box relative mr-auto
+            h-[clamp(20rem,65vw,30rem)]
+            min-h-[20rem]
+            w-full max-w-full
+            overflow-hidden
+            rounded-r-[3.5rem]
+            bg-cream
+            sm:h-[clamp(24rem,45vw,34rem)]
+            sm:rounded-r-[7rem]
+            md:h-[clamp(26rem,38vw,32rem)]
+            md:w-full
+            lg:h-[clamp(28rem,42vh,36rem)]
+            lg:max-w-[90rem]
+            lg:rounded-r-[12rem]
+          "
       >
         {/* Grid pattern */}
         <div
@@ -261,17 +276,20 @@ const Hero = () => {
 
         {/* Your image */}
         <img
-            src="/red-bg.png"
-            alt="Praveenraj"
-            className="
-                hero-img
-                absolute inset-y-0 left-0 z-10
-                h-full w-full
-                object-contain object-bottom
-                grayscale
-                sm:w-1/2 sm:object-cover sm:object-right
-            "
-            />
+          src="/red-bg.png"
+          alt="Praveenraj"
+          className="
+            hero-img absolute inset-0 z-10
+            h-full w-full
+            object-contain object-bottom
+            grayscale
+            sm:inset-y-0 sm:left-0 sm:right-auto
+            sm:w-[55%]
+            md:w-1/2
+            lg:w-1/2
+            lg:object-cover lg:object-right
+          "
+        />
         {/* Tech stickers */}
         {STICKERS.map((s, i) => (
           <Sticker
