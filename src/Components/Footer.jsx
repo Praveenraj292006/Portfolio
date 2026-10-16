@@ -20,9 +20,9 @@ const NAV = [
 ];
 
 const SOCIALS = [
-  { name: "GitHub", Icon: FaGithub, href: "https://github.com/your-username" },
-  { name: "LinkedIn", Icon: FaLinkedinIn, href: "https://linkedin.com/in/your-username" },
-  { name: "Instagram", Icon: FaInstagram, href: "https://instagram.com/your-username" },
+  { name: "GitHub", Icon: FaGithub, href: "https://github.com/Praveenraj292006" },
+  { name: "LinkedIn", Icon: FaLinkedinIn, href: "www.linkedin.com/in/praveenraj-m-63609932b" },
+  { name: "Instagram", Icon: FaInstagram,  href: "https://www.instagram.com/praveenraj_m.06/" },
   { name: "WhatsApp", Icon: FaWhatsapp, href: "https://wa.me/918610254207" },
 ];
 

@@ -15,9 +15,9 @@ import {
 // ✏️ Replace with your real details
 const EMAIL = "praveenraj292006@gmail.com";
 const SOCIALS = [
-  { name: "GitHub", Icon: FaGithub, href: "https://github.com/your-username", color: "#111111" },
-  { name: "LinkedIn", Icon: FaLinkedinIn, href: "https://linkedin.com/in/your-username", color: "#0A66C2" },
-  { name: "Instagram", Icon: FaInstagram, href: "https://instagram.com/your-username", color: "#E4405F" },
+  { name: "GitHub", Icon: FaGithub, href: "https://github.com/Praveenraj292006", color: "#111111" },
+  { name: "LinkedIn", Icon: FaLinkedinIn, href: "www.linkedin.com/in/praveenraj-m-63609932b", color: "#0A66C2" },
+  { name: "Instagram", Icon: FaInstagram, href: "https://www.instagram.com/praveenraj_m.06/", color: "#E4405F" },
   { name: "WhatsApp", Icon: FaWhatsapp, href: "https://wa.me/918610254207", color: "#25D366" },
 ];
 const TOPICS = ["a project", "a job", "a collaboration", "just saying hi"];

@@ -301,13 +301,53 @@ const Hero = () => {
         </AnimatePresence>
       </div>
 
-      <div className="trustbar relative text-[4vw] pt-5 flex gap-4 text-amber-300 ">
-        <FaGithub className=""/>
-        <FaInstagram/>
-        <FaLinkedinIn/>
-        <FaWhatsapp/>
+     
+<div className="trustbar relative flex gap-4 pt-5 text-amber-300">
+  <a
+    href="https://github.com/Praveenraj292006"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub"
+    title="GitHub"
+    className="transition-transform duration-300 hover:-translate-y-1 hover:text-white"
+  >
+    <FaGithub size={24} />
+  </a>
 
-      </div>
+  <a
+    href="https://www.instagram.com/praveenraj_m.06/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    title="Instagram"
+    className="transition-transform duration-300 hover:-translate-y-1 hover:text-white"
+  >
+    <FaInstagram size={24} />
+  </a>
+
+  <a
+    href="www.linkedin.com/in/praveenraj-m-63609932b"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+    title="LinkedIn"
+    className="transition-transform duration-300 hover:-translate-y-1 hover:text-white"
+  >
+    <FaLinkedinIn size={24} />
+  </a>
+
+  <a
+    href="https://wa.me/918610254207"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="WhatsApp"
+    title="WhatsApp"
+    className="transition-transform duration-300 hover:-translate-y-1 hover:text-white"
+  >
+    <FaWhatsapp size={24} />
+  </a>
+</div>
+
     </section>
   );
 };
